@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0f2557;
+  --navy-light: #1a3a7c;
+  --navy-pale: #e8edf8;
+  --red: #c0392b;
+  --amber: #d97706;
+  --green: #16a34a;
+  --gray-bg: #f5f6f8;
+  --gray-border: #e2e5eb;
+  --gray-text: #6b7280;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-bg);
+  color: #1a1f2e;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.mapboxgl-map {
+  width: 100%;
+  height: 100%;
+}
+
+.mapboxgl-ctrl-attrib {
+  font-size: 10px;
+}
+
+.vessel-list {
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db transparent;
+}
+
+.vessel-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.vessel-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.vessel-list::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 2px;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+@keyframes flash-marker {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.6); opacity: 0.5; }
+}
+
+/* Anchored cluster pulse — slow, attention-drawing */
+@keyframes pulse-cluster {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(192, 57, 43, 0.5), 0 2px 8px rgba(0,0,0,0.3);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 36px rgba(192, 57, 43, 0.8), 0 2px 8px rgba(0,0,0,0.3);
+    transform: scale(1.06);
+  }
+}
+
+/* Moving vessel highlight pulse — subtler */
+@keyframes pulse-vessel {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50%       { transform: translate(-50%, -50%) scale(1.35); }
+}
+
+/* Outer ring for highlighted vessels */
+@keyframes pulse-ring {
+  0%   { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+  60%  { transform: translate(-50%, -50%) scale(1.7); opacity: 0; }
+  100% { transform: translate(-50%, -50%) scale(1.7); opacity: 0; }
+}
+
+/* Blockade zone flash when inStrait filter is active */
+@keyframes blockade-flash {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.35; }
+}
+
+/* Dark ship uncertainty ring — slow expanding pulse */
+@keyframes ring-pulse {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.35; }
+  50%       { transform: translate(-50%, -50%) scale(1.8); opacity: 0; }
+}
